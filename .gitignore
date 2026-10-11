@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Uploads (local dev only - should be on persistent storage in production)
+uploads/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript incremental compilation
+*.tsbuildinfo
+
+# Coverage
+coverage/
+
+# Jest cache
+.jest-cache/
